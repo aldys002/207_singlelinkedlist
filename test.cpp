@@ -84,5 +84,12 @@ bool deleteNode (int nim) {
 }
 
 bool listyEmpty(){
+    if (START == NULL)
+        return true;
+    else 
+        return false;
+}
+
+void traverse(){
     
 }

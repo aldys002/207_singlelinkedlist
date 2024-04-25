@@ -17,10 +17,13 @@ void addNode() {
     cin >> nim;
     cout << "Masukkan Nama : ";
     cin >> nama;
-    nodeBaru->no Mhs = nim;
+    nodeBaru->noMhs = nim;
     nodeBaru->name = nama;
 
     if (START == NULL || nim <= START->noMhs){
-        
+        if (START != NULL && nim == START->noMhs)
+        {
+
+        }
     }
 }

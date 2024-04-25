@@ -26,6 +26,9 @@ void addNode() {
             cout << "NIM sudah ada " << endl;
             return;
         }
+        nodeBaru->next =START;
+        START = nodeBaru;
+        return;
     }
 
     Node* previous = START;
@@ -43,4 +46,8 @@ void addNode() {
     }
     nodeBaru->next = current;
     previous->next  = nodeBaru;
+}
+
+bool serachNode(int nim, Node* current, Node* previous) {
+    
 }
